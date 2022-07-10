@@ -8,7 +8,7 @@
   "homepage": "https://prettier.io",
   "author": "James Long",
   "license": "MIT",
-  "main": "prettier/index.js",
+  "main": "node_modules/prettier/index.js",
   "browser": "./standalone.js",
   "unpkg": "./standalone.js",
   "engines": {
