@@ -94,6 +94,10 @@
             <label for="Password">Password</label><br>
             <input id="Password" type="password" placeholder="Password">
         </p><br>
+        <p>
+            <label for="program"> What is your programming level?</label><br>
+            <input id="program" type="range" name="program" placeholder="Your programming level">
+        </p>
         <p>What does HTML stand for?</p>
         <label>
             <input type="checkbox">
@@ -106,21 +110,30 @@
         </label>Hyper Text Markup Language<br>
         <p>What does HTTP stand for?</p>
         <label>
-            <input type="checkbox">
+            <input type="radio" name="mean" VALUE="1">
         </label>Hyper Text Translate Protocol <br>
         <label>
-            <input type="checkbox">
+            <input type="radio" name="mean" VALUE="2">
         </label>Home Text Transmission Protocol<br>
         <label>
-            <input type="checkbox">
+            <input type="radio" name="mean" VALUE="3">
         </label>Hyper Text Transfer Protocol<br>
         <p>
+            <label for="select">What does HTML stand for?</label><br>
+            <select name="Select" id="select">
+                <option disabled selected> You answer</option>
+                <option>Hyperlinks and Text Markup Language</option>
+                <option>Home Tool Markup Language</option>
+                <option>Hyper Text Markup Language</option>
+            </select>
         </p>
-
+        <p>
+            <label for="comment"></label>
+            <textarea id="comment" placeholder="Your Comment"></textarea>
+        </p>
         <button>Send</button>
     </form>
 </table>
-
 <hr>
 </body>
 </html>
