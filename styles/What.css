@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    font-family: 'Cormorant SC', serif;
+    align-items: center;
+    /*height: 18px;*/
+    width: 215px;
+    box-sizing: border-box;
+    margin: 0 40px;
+    padding: 0 10px;
+    transform: translate(-20%, -40%)
+}
+
+.headphones {
+    position: relative;
+    box-sizing: border-box;
+    margin: 35px 615px;
+
+}
+
+.headphones img {
+    padding: 3px 50px 37px 50px;
+}
+
+.chat {
+    position: relative;
+    box-sizing: border-box;
+    margin: 35px 615px;
+}
+
+.chat img {
+    padding: 3px 80.75px 37px 80.75px;
+}
+
+.laptop {
+    position: relative;
+    box-sizing: border-box;
+    margin: 35px 615px;
+}
+
+.laptop img {
+    padding: 3px 80.75px 37px 80.75px;
+}
+
+.ok {
+    position: relative;
+    box-sizing: border-box;
+    margin: 35px 615px;
+}
+
+.ok img {
+    padding: 3px 80.75px 37px 80.75px;
+}
