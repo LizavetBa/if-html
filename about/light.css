@@ -30,9 +30,9 @@ h1{
 #text:hover > #light{
     background-color: #ffffff;
     box-shadow:
-            0 0 60px 30px #ffffff,
-            0 0 100px 60px #ffe2d0,
-            0 0 140px 80px #0ff;
+            0 0 60px 30px #FFE4B5,
+            0 0 100px 60px 	#EEE8AA,
+            0 0 140px 80px 	#F5DEB3;
 }
 #rope{
     position: absolute;
