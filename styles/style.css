@@ -12,6 +12,7 @@ h1 {
     width: 306px;
     padding-bottom: 20px;
     margin: 120px 567px 0 567px;
+    font-weight: 500;
 }
 
 hr {
@@ -105,6 +106,7 @@ li {
     max-width: 1440px;
     padding: 120px 0 200px 104px;
     background-color: #10367c;
+    margin: 0 auto;
 }
 
 .col {
