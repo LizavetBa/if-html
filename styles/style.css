@@ -10,7 +10,7 @@ h1 {
     display: flex;
     justify-content: center;
     width: 306px;
-    height: 47px;
+    padding-bottom: 20px;
     margin: 120px 567px 0 567px;
 }
 
@@ -42,6 +42,7 @@ hr {
 }
 
 .headphones p {
+    margin: 0 auto;
     width: 141px;
     height: 28px;
     font-size: 24px;
@@ -55,6 +56,7 @@ hr {
 }
 
 .chat p {
+    margin: 0 auto;
     width: 296px;
     height: 28px;
     font-size: 24px;
@@ -85,6 +87,7 @@ hr {
 }
 
 .ok p {
+    margin: 0 auto;
     width: 225px;
     height: 28px;
     font-size: 24px;
@@ -92,7 +95,7 @@ hr {
     padding-top: 8px;
 }
 
-.Blue {
+.background_wrapper {
     color: white;
     display: flex;
     flex-wrap: wrap;
