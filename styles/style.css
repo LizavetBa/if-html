@@ -98,12 +98,14 @@ hr {
 li {
     list-style-type: none;
 }
-
+.footer{
+    background-color: #10367c;
+    width: 100%;
+}
 .background_wrapper {
     color: white;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1440px;
     padding: 120px 0 200px 104px;
     background-color: #10367c;
     margin: 0 auto;
@@ -114,7 +116,7 @@ li {
 }
 
 .end {
-    margin-top: 165px;
+    margin: 165px 400px 0 30px ;
     font-size: 14px;
 }
 
