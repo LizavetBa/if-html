@@ -104,7 +104,14 @@ h1 {
     width: 100px;
     margin: 20px 670px;
 }
-
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    width: 290px;
+    margin: 120px 580px ;
+}
 .element {
     margin-right: 24px;
     font-size: 24px;
