@@ -14,33 +14,39 @@ h1 {
     margin: 120px 567px 0 567px;
     font-weight: 500;
 }
-.page{
+
+.page {
     height: 900px;
     width: 1440px;
     background-image: url(".././images/nightsky.png");
     background-repeat: no-repeat;
     margin: 0 auto;
 }
-.line hr{
+
+.line hr {
     width: 50px;
     height: 2px;
     background-color: #F5BD41;
     border: 1px solid #F5BD41;
-    margin: 0 28px;
+    margin: 0 37px;
 }
 
-.trip{
+.trip {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 202px;
 }
-.trip-logo{
+
+.trip-logo {
     margin: 51px 342px 0 104px;
+    height: 40px;
+    width: 205px;
 }
-.right-up{
-    margin: 57px 104px 202px 342px ;
+
+.right-up {
+    margin: 57px 104px 202px 342px;
 }
-.right-up-elements{
+
+.right-up-elements {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,22 +54,58 @@ h1 {
     color: #ffffff;
     max-width: 100%;
 }
-.words{
+
+.words {
     display: flex;
+    padding: 5px 10px;
 }
-.word{
+
+.word {
     padding: 0 24px;
     font-size: 24px;
     line-height: 28px;
 }
 
-.first-line hr{
+.header-text {
+    height: 118px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 0 0 0 104px;
+}
+
+.almanac {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.almanac .left {
+    display: flex;
+    color: #ffffff;
+    margin: 100px 110px 24px 128px;
+}
+
+.almanac .right {
+    display: flex;
+    color: #ffffff;
+    margin: 100px 20px 24px 110px;
+}
+.search-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-line hr {
     background-color: #F5BD41;
     border: 2px solid #F5BD41;
     width: 100px;
     margin: 20px 670px;
 }
-.element{
+
+.element {
     margin-right: 24px;
     font-size: 24px;
     line-height: 28px;
@@ -142,13 +184,16 @@ h1 {
     text-align: center;
     padding-top: 8px;
 }
+
 li {
     list-style-type: none;
 }
-.footer{
+
+.footer {
     background-color: #10367c;
     width: 100%;
 }
+
 .background_wrapper {
     color: white;
     display: flex;
@@ -163,7 +208,7 @@ li {
 }
 
 .end {
-    margin: 165px 400px 0 30px ;
+    margin: 165px 400px 0 30px;
     font-size: 14px;
 }
 
