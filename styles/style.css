@@ -37,7 +37,7 @@ h1 {
 }
 
 .trip-logo {
-    margin: 51px 342px 0 104px;
+    margin: 55px 342px 0 104px;
     height: 40px;
     width: 205px;
 }
@@ -85,15 +85,16 @@ h1 {
 .almanac .left {
     display: flex;
     color: #ffffff;
-    margin: 100px 110px 24px 128px;
+    margin: 90px 111px 24px 128px;
 }
 
 .almanac .right {
     display: flex;
     color: #ffffff;
-    margin: 100px 20px 24px 110px;
+    margin: 90px 20px 24px 110px;
 }
-.search-line{
+
+.search-line {
     display: flex;
     flex-direction: row;
 }
@@ -104,14 +105,41 @@ h1 {
     width: 100px;
     margin: 20px 670px;
 }
-.apps{
+
+.search-line {
+    display: flex;
+    height: 64px;
+    max-width: 1223px;
+}
+
+.city, .date, .count {
+
+    border-radius: 10px;
+    width: 430px;
+}
+
+.date {
+    border: 4px solid #F5BD41;
+}
+
+.button-1 {
+    width: 250px;
+    font-size: 24px;
+    font-weight: 500;
+    background: #3077C6;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.apps {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 40px;
     width: 290px;
-    margin: 120px 580px ;
+    margin: 115px 580px;
 }
+
 .element {
     margin-right: 24px;
     font-size: 24px;
@@ -230,3 +258,26 @@ li {
     font-size: 20px;
     font-weight: 500;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
