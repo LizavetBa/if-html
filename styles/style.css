@@ -18,8 +18,10 @@ h1 {
 .wrapper_main {
     height: 900px;
     width: 1440px;
-    background-image: url(".././images/nightsky.png");
+    background-image: url(".././images/background_main.svg") ;
+    background-position: top;
     background-repeat: no-repeat;
+    /*background-size: cover;*/
     margin: 0 auto;
 }
 
@@ -36,7 +38,7 @@ h1 {
     justify-content: space-between;
 }
 
-.trip-logo {
+.logo-trip {
     margin: 55px 342px 0 104px;
     height: 40px;
     width: 205px;
