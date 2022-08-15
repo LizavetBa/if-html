@@ -18,10 +18,9 @@ h1 {
 .wrapper_main {
     height: 900px;
     width: 1440px;
-    background-image: url(".././images/background_main.svg") ;
-    background-position: top;
+    background-image: url("../images/background.png");
+    background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
     margin: 0 auto;
 }
 
