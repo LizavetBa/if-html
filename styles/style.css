@@ -18,7 +18,8 @@ h1 {
 .wrapper_main {
     height: 900px;
     width: 1440px;
-    background-image: url(".././images/nightsky.png");
+    background-image: url("../images/background.png");
+    background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
 }
@@ -31,22 +32,22 @@ h1 {
     margin: 0 37px;
 }
 
-.trip {
+.main-trip {
     display: flex;
     justify-content: space-between;
 }
 
-.trip-logo {
+.main-trip__logo {
     margin: 55px 342px 0 104px;
     height: 40px;
     width: 205px;
 }
 
-.right-up {
+.main-trip__header {
     margin: 57px 104px 202px 342px;
 }
 
-.right-up-elements {
+.main-trip__header-elements {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,7 +67,7 @@ h1 {
     line-height: 28px;
 }
 
-.header-text {
+.trip__page__header-text {
     height: 118px;
     color: #ffffff;
     font-weight: 500;
@@ -82,13 +83,13 @@ h1 {
     font-size: 18px;
 }
 
-.almanac .left {
+.almanac__destination {
     display: flex;
     color: #ffffff;
     margin: 90px 111px 28px 128px;
 }
 
-.almanac .right {
+.almanac__check-in {
     display: flex;
     color: #ffffff;
     margin: 90px 20px 28px 110px;
