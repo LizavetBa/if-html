@@ -2,10 +2,10 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    max-width: 1440px;
     margin: 0 auto;
 }
-.wrapper_main__background{
+
+.wrapper_main__background {
     min-height: 100vh;
     width: 100%;
     background-image: url("../images/background_main.png");
@@ -110,12 +110,14 @@
     width: 100px;
     margin: 20px 670px;
 }
+
 ::placeholder {
     color: #000000C2;
     font-size: 1.2em;
 }
+
 .city, .date, .count {
-    outline:none;
+    outline: none;
     height: 55px;
     width: 300px;
     padding: 0 0 0 10px;
@@ -173,6 +175,70 @@
     height: 176px;
 }
 
+.col-1 {
+
+    width: 8.33%;
+}
+
+.col-2 {
+
+    width: 16.66%;
+}
+
+.col-3 {
+
+    width: 25%;
+}
+
+.col-4 {
+
+    width: 33.33%;
+}
+
+.col-5 {
+
+    width: 41.66%;
+}
+
+.col-6 {
+
+    width: 50%;
+}
+
+.col-7 {
+
+    width: 58.33%;
+}
+
+.col-8 {
+
+    width: 66.66%;
+}
+
+.col-9 {
+
+    width: 75%;
+}
+
+.col-10 {
+
+    width: 83.33%;
+}
+
+.col-11 {
+
+    width: 91.66%;
+}
+
+.col-12 {
+
+    width: 100%;
+}
+[class*="col-"] {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 h1 {
     display: flex;
     justify-content: center;
@@ -193,7 +259,7 @@ h1 {
     width: 141px;
     height: 28px;
     font-size: 24px;
-    padding: 0 77px 0 78px;
+    padding: 0 90px 0 50px;
 }
 
 .chat img {
@@ -203,11 +269,11 @@ h1 {
 }
 
 .chat p {
-    margin: 0 auto;
+    margin-right: 30px;
     width: 296px;
     height: 28px;
     font-size: 24px;
-    padding: 6px 0 0;
+    padding-top: 6px;
     text-align: center;
 
 }
@@ -224,6 +290,7 @@ h1 {
     font-size: 24px;
     text-align: center;
     padding-top: 25px;
+    margin: 0 75px;
 
 }
 
@@ -234,7 +301,7 @@ h1 {
 }
 
 .ok p {
-    margin: 0 auto;
+    margin: 0 40px;
     width: 225px;
     height: 28px;
     font-size: 24px;
@@ -281,6 +348,12 @@ li {
     font-weight: 500;
 }
 
+@media (min-device-width: 360px) {
+/* For mobile phones: */
+[class*="col-"] {
+     width: 100%;
+}
+}
 
 
 
