@@ -4,15 +4,6 @@
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
-
-h1 {
-    display: flex;
-    justify-content: center;
-    width: 306px;
-    padding-bottom: 20px;
-    margin: 120px 567px 0 567px;
-    font-weight: 500;
-}
 .wrapper_main__background{
     min-height: 100vh;
     width: 100%;
@@ -21,6 +12,13 @@ h1 {
     background-repeat: no-repeat;
     margin: 0 auto;
 }
+.wrapper_main {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
 .wrapper_main {
     max-width: 1440px;
     width: 100%;
@@ -175,6 +173,15 @@ h1 {
 .box {
     width: 296px;
     height: 176px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 306px;
+    padding-bottom: 20px;
+    margin: 120px 567px 0 567px;
+    font-weight: 500;
 }
 
 .headphones img {
