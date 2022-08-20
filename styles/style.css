@@ -4,6 +4,9 @@
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
+:root{
+    --border-color:#F5BD41;
+}
 
 .wrapper_main__background {
     min-height: 100vh;
@@ -21,11 +24,11 @@
     min-height: 100vh;
 }
 
-.line hr {
+.header-line__main-trip {
     width: 50px;
     height: 2px;
-    background-color: #F5BD41;
-    border: 1px solid #F5BD41;
+    background-color: var(--border-color);
+    border: 1px solid var(--border-color);
     margin: 0 37px;
 }
 
@@ -35,7 +38,7 @@
 }
 
 .main-trip__logo {
-    margin: 55px 342px 0 104px;
+    margin: 35px 342px 0 55px;
     height: 40px;
     width: 205px;
 }
@@ -104,9 +107,9 @@
 
 }
 
-.first-line hr {
-    background-color: #F5BD41;
-    border: 2px solid #F5BD41;
+.second-line hr {
+    background-color: var(--border-color);
+    border: 2px solid var(--border-color);
     width: 100px;
     margin: 20px 670px;
 }
@@ -126,7 +129,7 @@
 }
 
 .date {
-    border: 3px solid #F5BD41;
+    border: 3px solid var(--border-color);
     width: 259px;
     border-radius: 10px;
     margin: 0 0 0 170px;
@@ -248,10 +251,10 @@ h1 {
     font-weight: 500;
 }
 
-.headphones img {
+.headphones svg {
     width: 75px;
     height: 92px;
-    padding: 5px 106px 50px;
+    padding: 5px 104px 50px;
 }
 
 .headphones p {
@@ -259,10 +262,10 @@ h1 {
     width: 141px;
     height: 28px;
     font-size: 24px;
-    padding: 0 90px 0 50px;
+    padding: 0 60px 0 50px;
 }
 
-.chat img {
+.chat svg {
     width: 84px;
     height: 84px;
     padding: 5px 106px 50px;
@@ -278,7 +281,7 @@ h1 {
 
 }
 
-.laptop img {
+.laptop svg {
     width: 100px;
     height: 67px;
     padding: 5px 106px 50px;
@@ -294,7 +297,7 @@ h1 {
 
 }
 
-.ok img {
+.ok svg {
     width: 92px;
     height: 83px;
     padding: 5px 106px 50px;
@@ -348,7 +351,7 @@ li {
     font-weight: 500;
 }
 
-@media (min-device-width: 360px) {
+@media (max-device-width: 360px) {
 /* For mobile phones: */
 [class*="col-"] {
      width: 100%;
