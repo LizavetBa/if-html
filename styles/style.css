@@ -5,7 +5,6 @@
     margin: 0 auto;
 }
 
-
 h1 {
     display: flex;
     justify-content: center;
@@ -19,9 +18,22 @@ h1 {
     width: 100%;
     min-height: 100vh;
     background-image: url("../images/background.png");
+
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
+}
+.wrapper_main {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.wrapper_main {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .wrapper_main {
@@ -106,11 +118,13 @@ h1 {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
+
     max-width: 1232px;
     width: 100%;
     height: 60px;
     border-radius: 10px;
     margin: 0 104px;
+
 }
 
 .first-line hr {
@@ -176,6 +190,15 @@ h1 {
 .box {
     width: 296px;
     height: 176px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 306px;
+    padding-bottom: 20px;
+    margin: 120px 567px 0 567px;
+    font-weight: 500;
 }
 
 .headphones img {
@@ -282,6 +305,24 @@ li {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
