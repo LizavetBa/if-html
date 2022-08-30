@@ -169,8 +169,7 @@ body {
     max-width: 1232px;
     width: 100%;
     height: 569px;
-    margin: 0 auto;
-    align-content: stretch;
+    margin: 0 60px;
     justify-content: center;
 }
 
@@ -195,7 +194,7 @@ body {
 .main__headphones__p, .main__laptop__p, .main__chat__p, .main__ok__p {
     grid-area: text_headphones;
     display: grid;
-    align-content: center;
+    place-self: center;
     color: #383838;
     padding-top: 30px;
     font-size: 24px;
@@ -204,21 +203,29 @@ body {
 
 .main__headphones__svg {
     grid-area: headphones;
+    display: grid;
+    place-self: center;
 }
 
 
 .main__laptop__svg {
     grid-area: laptop;
+    display: grid;
+    place-self: center;
 }
 
 
 .main__chat__svg {
     grid-area: chat;
+    display: grid;
+    place-self: center;
 }
 
 
 .main__ok__svg {
     grid-area: ok;
+    display: grid;
+    place-self: center;
 }
 
 
