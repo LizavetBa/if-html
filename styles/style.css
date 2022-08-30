@@ -16,7 +16,7 @@ body {
     max-width: 1440px;
     min-height: 100vh;
     background-image: url("../images/background_main.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 
 }
@@ -36,19 +36,13 @@ body {
 }
 
 .main-trip {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    max-width: 1440px;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    padding: 55px 104px 0;
 }
 
-.main-trip__logo {
-    margin: 55px 342px 0 104px;
-    height: 40px;
-    width: 205px;
-}
-
-.main-trip__header {
-    margin: 57px 104px 202px 342px;
-}
 
 .main-trip__header-elements {
     display: flex;
@@ -76,7 +70,7 @@ body {
     font-weight: 500;
     font-size: 50px;
     line-height: 60px;
-    padding: 0 0 0 104px;
+    padding: 202px 0 100px 104px;
 }
 
 .almanac {
@@ -309,7 +303,14 @@ ul{
 
 }
 
+@media screen and (max-width: 360px) {
+    .wrapper_main__background{
+        width: 100%;
+        max-width: 360px;
 
+    }
+    
+}
 
 
 
