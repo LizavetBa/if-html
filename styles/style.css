@@ -95,12 +95,13 @@ body {
 .almanac__check-in {
     display: flex;
     color: #ffffff;
-    margin: 90px 20px 28px 110px;
+    margin: 90px 20px 28px 10px;
 }
 
 .search-line {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #ffffff;
     max-width: 1232px;
     width: 100%;
@@ -128,7 +129,7 @@ body {
     outline: none;
     height: 55px;
     width: 300px;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 15px;
     border-radius: 10px;
     border: none;
 }
@@ -136,8 +137,8 @@ body {
 .date {
     border: 3px solid #F5BD41;
     width: 259px;
+    height: 60px;
     border-radius: 10px;
-    margin: 0 0 0 170px;
 
 }
 
@@ -181,15 +182,16 @@ body {
     font-weight: 500;
     font-size: 40px;
     color: #383838;
-;
 }
+
 .main__ok, .main__laptop, .main__chat, .main__headphones{
     width: 296px;
     height: 178px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
 }
+
 .main__headphones__p, .main__laptop__p, .main__chat__p, .main__ok__p {
     grid-area: text_headphones;
     display: grid;
@@ -207,7 +209,6 @@ body {
 
 .main__laptop__svg {
     grid-area: laptop;
-    justify-content: center;
 }
 
 
